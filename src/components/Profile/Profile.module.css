@@ -1,0 +1,77 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 330px;
+  border-radius: 6px;
+  background-color: gainsboro;
+}
+
+.description {
+  text-align: center;
+  font-size: 18px;
+}
+
+.avatar {
+  display: block;
+  width: 120px;
+  border-radius: 50%;
+  /* margin: 0 auto; */
+  padding: 50px 105px 30px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+.tag {
+  color: #888787;
+  padding-bottom: 15px;
+}
+
+.location {
+  color: #888787;
+  padding-bottom: 35px;
+}
+
+.stats {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.stats li {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.label {
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+  color: #888787;
+}
+
+.quantity {
+  font-weight: 600;
+  /* align-items: center; */
+}
